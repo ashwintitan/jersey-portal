@@ -254,7 +254,7 @@ function Portal() {
             <label className="label">Jersey Size</label>
             <select className="select" value={upperSize} onChange={(e) => setUpperSize(e.target.value)}>
               <option value="">Select…</option>
-              {["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"].map((o) => (
+              {["36-XS", "38-S", "40-M", "42-L", "44-XL", "46XXL", "48-3XL"].map((o) => (
                 <option key={o} value={o}>{o}</option>
               ))}
             </select>
@@ -264,7 +264,7 @@ function Portal() {
             <label className="label">Shorts Size</label>
             <select className="select" value={shortsSize} onChange={(e) => setShortsSize(e.target.value)}>
               <option value="">Select…</option>
-              {["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"].map((o) => (
+              {["26-XS", "28-S", "30-M", "32-L", "34-XL", "36-XXL", "38-3XL"].map((o) => (
                 <option key={o} value={o}>{o}</option>
               ))}
             </select>
