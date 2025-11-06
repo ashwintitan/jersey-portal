@@ -4,7 +4,7 @@ import "./index.css";
 /** ===== CONFIG =====
  * Replace with your live Web App URL after deploying the Apps Script.
  */
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyGHhXBKmHzhaeyIjs0RmmY2RUt7nr4VPg_iOujUxKm0Vey272rVFqVM1afWiZX6981/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzJen1rMh3SCbSGs6iA_VJnLppoCRbcDjjNi8X-eaz1eEf6OJLCplDIoD3WSSa4T2b1/exec";
 const SEARCH_API_URL = WEB_APP_URL;
 const SUBMIT_API_URL = WEB_APP_URL;
 const UPI_ID = "gautam.sekhar11@okhdfcbank";
